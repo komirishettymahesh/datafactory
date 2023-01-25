@@ -1,0 +1,9 @@
+{
+	"name": "datafactorylabgrp",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec4bcba9-00d0-4e51-94e8-6b0c0334f8ab",
+		"tenantId": "a1927865-dc78-4ac0-ac58-8f06596c7529"
+	}
+}

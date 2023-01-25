@@ -1,0 +1,21 @@
+{
+	"name": "LogJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapsedatalakelabgrp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "log.json",
+				"folderPath": "raw",
+				"fileSystem": "synapsefslabgrp"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
